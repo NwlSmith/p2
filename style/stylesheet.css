@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(5, 5, 5);
+    font-family: Raleway, monospace;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+}
+
+header {
+    text-align: left;
+    height: 100px;
+    display: inline-flex;
+    border-top:5px solid rgb(240, 240, 240);
+    border-right: 5px solid rgb(5, 5, 5);
+    border-bottom:5px solid rgb(240, 240, 240);
+    border-left: 5px solid rgb(5, 5, 5);
+
+}
+
+header h1 {
+    height: 1em;
+    margin-top: .9em;
+}
+
+#logo {
+    height: 100px;
+}
+
+main {
+    text-align: center;
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 20%;
+    border-top:5px solid rgb(240, 240, 240);
+    border-right: 5px solid rgb(5, 5, 5);
+    border-bottom:5px solid rgb(240, 240, 240);
+    border-left: 5px solid rgb(5, 5, 5);
+}
+
+form {
+    text-align: left;
+}
+
+#quote {
+    border: 5px solid rgb(240, 240, 240);
+    font-size: 1.2em;
+}
