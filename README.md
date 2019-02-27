@@ -2,6 +2,9 @@
 + By: Nate Smith
 + Production URL: <http://p2.nwlsmith-dwa.com>
 
+## Outside resources
+[Raleway Font from Google API](https://fonts.google.com/specimen/Raleway)
+
 ## 3 Unique inputs
 1. *Number input for the initial investment*
 2. *Select input for the frequency of interest calculations*
