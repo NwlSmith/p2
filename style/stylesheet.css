@@ -40,7 +40,82 @@ form {
     text-align: left;
 }
 
-#quote {
-    border: 5px solid rgb(240, 240, 240);
-    font-size: 1.2em;
+fieldset {
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(5, 5, 5);
+}
+
+input[type=number] {
+    font-family: monospace;
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 240, 240);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
+    width: 9em;
+}
+
+input[type=number]:hover {
+    font-family: monospace;
+    border-top:2px solid rgb(5, 5, 5);
+    border-right: 2px solid rgb(240, 240, 240);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(240, 240, 240);
+}
+
+select {
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 240, 240);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
+}
+
+select:hover {
+    border-top:2px solid rgb(5, 5, 5);
+    border-right: 2px solid rgb(240, 240, 240);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(240, 240, 240);
+}
+
+#errors {
+    margin-top: 0;
+    list-style: none;
+}
+
+
+#submit {
+    font-family: Raleway, monospace;
+    font-weight: bold;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 240, 240);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
+}
+
+#submit:hover {
+    font-family: Raleway, monospace;
+    font-weight: bold;
+    background-color: rgb(240, 240, 240);
+    color: rgb(5, 5, 5);
+    border-top:2px solid rgb(5, 5, 5);
+    border-right: 2px solid rgb(240, 240, 240);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(240, 240, 240);
+}
+
+#results {
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 240, 240);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
 }
