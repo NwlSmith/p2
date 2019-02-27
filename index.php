@@ -12,7 +12,7 @@ require 'logic.php'
 </head>
 <body>
 <header>
-    <a href='http://nwlsmith.com' alt='Portfolio Link'><img src='http://nwlsmith.com/images/general/Nate-logo-200.png'
+    <a href='http://nwlsmith.com'><img src='http://nwlsmith.com/images/general/Nate-logo-200.png'
                                                             alt='Logo'
                                                             id='logo'></a>
     <h1>Project 2</h1>
